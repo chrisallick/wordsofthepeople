@@ -1,0 +1,15 @@
+html, body { width: 100%; height: 100%; font-family: Helvetica; font-weight: bold; }
+
+body { background: url("../img/gradient.png") top left repeat-x; }
+
+#wrapper { position: relative; width: 100%; height: 100%; }
+
+#nav { padding: 44px 0px 0px 49px; position: absolute; top: 0px; left: 0px; opacity: 0; }
+
+#logo { margin-bottom: 20px; }
+#record { cursor: pointer; margin-bottom: 11px; }
+
+#createandplay { background: transparent url("../img/createbg.png") top left no-repeat; position: relative; width: 683px; height: 64px; top: 20px; left: -1000px; opacity: 0; }
+#createandplay #input { position: absolute; top: 34px; height: 25px; left: 9px; width: 662px; border: 1px solid black; background-color: transparent; outline: none; color: #FFFFFF; font: normal 15px Helvetica; }
+#createandplay #playback {  position: absolute; top: 34px; height: 25px; left: 9px; width: 662px; border: 1px solid black; background-color: transparent; outline: none; color: #FFFFFF; font: normal 15px Helvetica; display: none; }
+#createandplay #button { cursor: pointer; position: absolute; width: 15px; height: 28px; bottom: 2px; right: -18px; }
